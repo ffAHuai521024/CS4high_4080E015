@@ -67,7 +67,7 @@ print(list(list4))
 ##### 程式閱讀題:下列程式執行後會印出什麼？
 ```
 numbers = [21, 4, 35, 1, 8, 7, 3, 6, 9]
-my_numbers = []
+my_numbers = [21, 35, 1, 7, 3, 9]
 
 for number in numbers:
     if (number % 2 != 0): 
