@@ -4,11 +4,11 @@
 
 ```
 ```
-1. John is analyzing(分析) strange(奇怪) behavior(行為) on(上) computers(電腦) in(在) his(他的) network(網路). 
-He believes there is malware on the machines.
-The symptoms include strange behavior that persists, even if he boots the machine to a Linux Live CD. 
+1. John(約翰) is analyzing(分析) strange(奇怪) behavior(行為) on(上) computers(電腦) in(在) his(他的) network(網路). 
+He believes(相信) there(那裡) is (malware(惡意軟件) on(上) the(的) machines(機器)機器上的惡意軟件).
+The symptoms(症狀) include strange behavior that persists, even if he boots the machine to a Linux Live CD. 
 What is the most likely cause?
-A. Ransomware 
+A. Ransomware (勒索軟體)
 B. Boot sector virus (開機型病毒)
 C. Rootkit (根目錄攻擊)
 D. Key logger (檢盤側錄)
@@ -121,25 +121,25 @@ B. Penetration test
 C. Security audit
 D. Security test
 
-16. Jared(傑瑞德(人名)) discovers(發現) that(那) attackers(攻擊者) have(有) breached(違反) his(他的) WiFi(無限) network(網路). 
-They have gained access via the wireless access point (WAP) administrative panel, and have logged on with the
-credentials the WAP shipped with. 
-What best describes this issue?
-A. Default configuration
-B. Race conditions
-C. Failure to patch
-D. Weak encryption
+(B)16. Jared(傑瑞德(人名)) discovers(發現) that(那) attackers(攻擊者) have(有) breached(違反) his(他的) WiFi(無線) network(網路). 
+They(他們) have(有) gained(獲得) access(訪問) via(訪問) the(的)
+wireless(無線) access(訪問) point(點) [(WAP)無線應用協定] [administrative(行政的) panel(面板)管理面板], and(和) have(有) logged(已記錄) on(上) with(與) the(的) credentials(憑證登入) the(的) WAP(無線應用協定) shipped(已運輸) with(與). 
+What best(最好) describes(描述) this(這個) issue(問題)?
+A. Default configuration (默認配置)
+B. Race conditions (競爭危害)
+C. Failure to patch (修補失敗)
+D. Weak encryption [加密(弱)]
 
-17. Joanne is concerned about social engineering. She is particularly concerned that this technique
+(C)17. Joanne is concerned about social engineering. She is particularly concerned that this technique
 could be used by an attacker to obtain information about the network, including
 possibly even passwords. What countermeasure would be most effective in combating
 social engineering?
-A. SPI firewall
-B. An IPS
-C. User training
+A. SPI firewall (狀態防火牆)
+B. An IPS 
+C. User training (使用者培訓)
 D. Strong policies
 
-18. You are responsible for incident response at a mid-sized bank. You have discovered that
+(D)18. You are responsible for incident response at a mid-sized bank. You have discovered that
 someone was able to successfully breach your network and steal data from your database
 server. All servers are configured to forward logs to a central logging server. However,
 when you examine that central log, there are no entries after 2:13 a.m. two days ago. You
@@ -150,7 +150,7 @@ B. Your log server has been hit with a buffer overflow attack.
 C. Your switches have been hit with ARP poisoning.
 D. Your IDS is malfunctioning and blocking log transmissions.
 
-19. Coleen is the web security administrator for an online auction website. A small number
+(D)19. Coleen is the web security administrator for an online auction website. A small number
 of users are complaining that when they visit the website and log in, they are told the service
 is down and to try again later. Coleen checks and she can visit the site without any
 problem, even from computers outside the network. She also checks the web server log
@@ -161,16 +161,17 @@ B. SQL injection
 C. Cross-site scripting
 D. Cross-site request forgery
 
-20. Mahmoud is responsible for managing security at a large university. He has just performed
-a threat analysis for the network, and based on past incidents and studies of
-similar networks, he has determined that the most prevalent threat to his network is
-low-skilled attackers who wish to breach the system, simply to prove they can or for
-some low-level crime, such as changing a grade. Which term best describes this type of
-attacker?
-A. Hacktivist
-B. Amateur
-C. Insider
-D. Script kiddie
+(D)20. Mahmoud is (responsible(負責的) for(對於)負責) managing(管理) security(安全) [at(在) a(一個) large(大) university(大學)在一個大型大學]. 
+He has(擁有) just(剛剛) performed(已執行) a(一個) threat(威脅) analysis(分析) for(對於) the(的) network(網路), 
+and(和) based(基於) on(上) past(過去) incidents(事件) and(和) studies(學習) of(的) similar(類似) networks(網路), 
+he has(擁有) [determined(決心) that(那)確定] the(的) most(最) prevalent(普遍) threat(威脅) to(至於) his(他的) network(網路) is low-skilled(低技能的) attackers(攻擊者) 
+who wish to breach the system, simply to prove they can or for
+some low-level crime, such as changing a grade. 
+Which term best describes this type of attacker?
+A. Hacktivist (黑客主義)
+B. Amateur (業餘)
+C. Insider (內幕成員)
+D. Script kiddie (腳本小子)
 
 21. Which of the following best describes a collection of computers that have been compromised
 and are being controlled from one central point?
