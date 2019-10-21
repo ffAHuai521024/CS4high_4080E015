@@ -130,25 +130,29 @@ B. Race conditions (競爭危害)
 C. Failure to patch (修補失敗)
 D. Weak encryption [加密(弱)]
 
-(C)17. Joanne is concerned about social engineering. She is particularly concerned that this technique
-could be used by an attacker to obtain information about the network, including
-possibly even passwords. What countermeasure would be most effective in combating
-social engineering?
+(C)17. Joanne is concerned(關心) about(關於) [social(社會的) engineering(工程)社會工程學]. 
+She is particularly(尤其) concerned(關心) that(那) this(這個) technique(技術) [could(可以) be(是) used(用過的) by(通過) an(一個) 
+attacker(攻擊者)可能被攻擊者使用] [to(至) obtain(獲得) information(信息) about(關於) the(的) network(網路)獲取有關網路的訊息], 
+[including(包含) possibly(可能) even(甚至) passwords(密碼)甚至可能包含密碼]. 
+[What countermeasure(對策) would(將) be(是) most(最) effective(有效) in(在) combating(戰鬥)什麼對策將是最有效打擊] [social engineering社會工程學]?
 A. SPI firewall (狀態防火牆)
 B. An IPS 
 C. User training (使用者培訓)
 D. Strong policies
 
-(D)18. You are responsible for incident response at a mid-sized bank. You have discovered that
-someone was able to successfully breach your network and steal data from your database
-server. All servers are configured to forward logs to a central logging server. However,
-when you examine that central log, there are no entries after 2:13 a.m. two days ago. You
-check the servers, and they are sending logs to the right server, but they are not getting
-there. Which of the following would be most likely to explain this?
-A. Your log server has a backdoor.
-B. Your log server has been hit with a buffer overflow attack.
-C. Your switches have been hit with ARP poisoning.
-D. Your IDS is malfunctioning and blocking log transmissions.
+(D)18. You are(是) responsible(負責的) for(對於) incident(事件) response(響應) at(在) a(一種) mid-sized(中型) bank(銀行). 
+You have(有) discovered(發現) that(那) someone(某人) was(原為) able(能夠) [to(至) successfully(成功地) breach(違反) 
+your network(網路) and(和) steal(偷) data(數據) from(從) your database(數據庫) server(伺服器)成功完全破壞您的網路並從數據庫服務中竊取數據]. 
+All(所有) servers(伺服器) are(是) configured(已配置) to(至) forward(向前) logs(日誌) to(至) a(一種) central(中央) logging(測井) server(伺服器).However(然而),
+when(什麼時候) you examine(檢查) that(那) central(中央) log(日誌), there(那裡) are(是) no(沒有) entries(條目) after(後) 2:13 a.m.(上午) two days ago(前). 
+You check(校驗) the(的) servers(伺服器), and(和) they(他們) are(是) sending(發送) logs(日誌) to(至) the(的) right(對) server(伺服器), 
+but(但) they(他們) are(是) not(不) [getting(得到) there(那裡)到達那裡]. 
+Which(哪一個) of the following(以下) would(將) be(是) most(最) likely(可能的) to(至) explain(說明) this(這個)?
+A. Your log(日誌) server(伺服器) has(擁有) a(一種) backdoor(後門).
+B. Your log(日誌) server(伺服器) has(擁有) been(是) hit(擊中) with(與) a(一種) [buffer(緩衝) overflow(溢出) attack(攻擊)
+緩衝區溢出攻擊].
+C. Your switches(開關) have(有) been(是) hit(擊中) with(與) [ARP(位址解析協定)Address Resolution Protocol] poisoning(中毒).
+D. Your [IDS(入侵檢測系統)Intrusion-detection] is [malfunctioning(發生故障) and(和) blocking(阻塞) log(日誌) transmissions(變速箱)故障並阻止日誌傳輸].
 
 (D)19. Coleen is the web security administrator for an online auction website. A small number
 of users are complaining that when they visit the website and log in, they are told the service
