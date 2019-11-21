@@ -1,3 +1,18 @@
+Markdown文件
+https://markdown.tw/
+Network Types: LAN, WAN, PAN, CAN, MAN, SAN, WLAN
+https://www.youtube.com/watch?v=4_zSIXb7tLQ
+
+Network Topologies (Star, Bus, Ring, Mesh, Ad hoc, Infrastructure, & Wireless Mesh Topology)
+https://www.youtube.com/watch?v=zbqrNg4C98U
+
+What is a DMZ? (Demilitarized Zone)
+https://www.youtube.com/watch?v=dqlzQXo1wqo
+
+NAT Explained - Network Address Translation
+https://www.youtube.com/watch?v=FTUV0t6JaDA
+
+
 #網路硬體
 Layer-1:repeater(1-1), hub(1-N)
 Layer-2:bridgr, switch
@@ -221,3 +236,10 @@ ARP -a [inet_addr] [-N if_addr] [-v]
   224.0.0.251           01-00-5e-00-00-fb     靜態
   224.0.0.252           01-00-5e-00-00-fc     靜態
   239.255.255.250       01-00-5e-7f-ff-fa     靜態
+
+
+###考試必考
+protocol(協定)
+名詞解釋
+NFC RFID
+
