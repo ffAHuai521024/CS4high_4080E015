@@ -242,4 +242,5 @@ ARP -a [inet_addr] [-N if_addr] [-v]
 protocol(協定)
 名詞解釋
 NFC RFID
+![image](http://intronetworks.cs.luc.edu/current/html/_images/tcp_header.svg)
 
