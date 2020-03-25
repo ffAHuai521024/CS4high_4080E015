@@ -281,10 +281,17 @@ B. His machine has a logic bomb.
 C. His machine has a boot sector virus.  
 D. His machine has ransomware.
 	
-  31.	When phishing attacks are so focused that they target a specific individual, they are called what?  A. Spear phishing  B. Targeted phishing  C. Phishing
+31.When phishing attacks are so focused that they target a specific individual, 
+they are called what?  
+A. Spear phishing
+B. Targeted phishing  
+C. Phishing
 D. Whaling
 	
-  32.	You are concerned about a wide range of attacks that could affect your company’s web server. You have recently read about an attack wherein the attacker sends more data to the target than the target is expecting. If done properly, this could cause the target to crash. What would best prevent this type of attack?  A. An SPI firewall  B. An active IDS/IPS  C. Checking buffer boundaries  D. Checking user input
+32.You are concerned about a wide range of attacks that could affect your company’s web server.
+You have recently read about an attack wherein the attacker sends more data to the target than the target is expecting. 
+If done properly, this could cause the target to crash. 
+What would best prevent this type of attack?  A. An SPI firewall  B. An active IDS/IPS  C. Checking buffer boundaries  D. Checking user input
 	
   33.	You work for a large retail company that processes credit card purchases. You have been asked to test your company network for security issues. The specific test you are conducting involves primarily checking policies, documentation, and past incident reports. Which of the following best describes this type of test?
 A. Vulnerability scan  B. Penetration test  C. Security audit  D. Security test
