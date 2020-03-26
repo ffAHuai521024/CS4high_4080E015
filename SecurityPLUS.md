@@ -774,63 +774,122 @@ C. Sparse infector virus
 D. Key logger
 
 91.Farès is the CISO of a bank. 
-He has received an email that is encouraging him to click on a link and fill out a survey. Being security conscious, he normally does not click on links. However, this email calls him by name and claims to be a follow-up to a recent conference he attended. Which of the following best describes this attack?   A. Clickjacking   B. Social engineering   C. Spear phishing   D. Whaling
-	92.	You are responsible for technical support at your company. Users are all complaining of very slow Internet connectivity. When you examine the firewall, you find a large number of incoming connections that are not completed, all packets coming from a single IP address. What best describes this attack?   A. DDoS   B. SYN flood   C. Buffer overflow   D. ARP poisoning
-	93.	An attacker is trying to get malformed queries sent to the backend database to circumvent the web page’s security. What type of attack depends on the attacker entering text into text boxes on a web page that is not normal text, but rather odd-looking commands that are designed to be inserted into database queries?   A. SQL injection   B. Clickjacking   C. Cross-site scripting   D. Bluejacking
-	94.	Tyrell is responsible for selecting cryptographic products for his company. The company wants to encrypt the drives of all laptops. The product they have selected uses 128-bit AES encryption for full disk encryption, and users select a password to decrypt the drive. What, if any, would be the major weakness in this system?   A. None; this is a good system.   B. The 128-bit AES key is too short.   C. The passwords users select are the weak link.   D. The AES algorithm is the problem; they should use DES.
-	95.	Valerie is responsible for security testing applications in her company. She has discovered that a web application, under certain conditions, can generate a memory leak. What, type of attack would this leave the application vulnerable to?   A. DoS   B. Backdoor   C. SQL injection   D. Buffer overflow
-	96.	When a multithreaded application does not properly handle various threads accessing a common value, what flaw is this?   A. Memory leak   B. Buffer overflow   C. Integer overflow   D. Race condition
-	97.	 Acme Company is using smart cards that use near-field communication (NFC) rather than needing to be swiped. This is meant to make physical access to secure areas more secure. What vulnerability might this also create? 
+He has received an email that is encouraging him to click on a link and fill out a survey. 
+Being security conscious, he normally does not click on links. 
+However, this email calls him by name and claims to be a follow-up to a recent conference he attended. 
+Which of the following best describes this attack?   
+A. Clickjacking   
+B. Social engineering   
+C. Spear phishing   
+D. Whaling
+	
+92.You are responsible for technical support at your company. 
+Users are all complaining of very slow Internet connectivity. 
+When you examine the firewall, you find a large number of incoming connections that are not completed, 
+all packets coming from a single IP address. 
+What best describes this attack?   
+A. DDoS   
+B. SYN flood   
+C. Buffer overflow   
+D. ARP poisoning
+	
+93.An attacker is trying to get malformed queries sent to the backend database to circumvent the web page’s security. 
+What type of attack depends on the attacker entering text into text boxes on a web page that is not normal text, 
+but rather odd-looking commands that are designed to be inserted into database queries?   
+A. SQL injection   
+B. Clickjacking   
+C. Cross-site scripting   
+D. Bluejacking
+
+94.	Tyrell is responsible for selecting cryptographic products for his company. The company wants to encrypt the drives of all laptops. The product they have selected uses 128-bit AES encryption for full disk encryption, and users select a password to decrypt the drive. What, if any, would be the major weakness in this system?   A. None; this is a good system.   B. The 128-bit AES key is too short.   C. The passwords users select are the weak link.   D. The AES algorithm is the problem; they should use DES.
+
+95.	Valerie is responsible for security testing applications in her company. She has discovered that a web application, under certain conditions, can generate a memory leak. What, type of attack would this leave the application vulnerable to?   A. DoS   B. Backdoor   C. SQL injection   D. Buffer overflow
+
+96.	When a multithreaded application does not properly handle various threads accessing a common value, what flaw is this?   A. Memory leak   B. Buffer overflow   C. Integer overflow   D. Race condition
+
+97.	 Acme Company is using smart cards that use near-field communication (NFC) rather than needing to be swiped. This is meant to make physical access to secure areas more secure. What vulnerability might this also create? 
 A. Tailgating   B. Eavesdropping   C. IP spoofing   D. Race conditions
-	98.	John is responsible for physical security at a large manufacturing plant. Employees all use a smart card in order to open the front door and enter the facility. Which of the following is a common way attackers would circumvent this system?   A. Phishing   B. Tailgating   C. Spoofing the smart card   D. RFID spoofing
-	99.	Which of the following is the term for an attack wherein malware inserts itself as a library, such as a DLL, between an application and the real system library the application is attempting to communicate with?   A. Application spoofing
+
+98.	John is responsible for physical security at a large manufacturing plant. Employees all use a smart card in order to open the front door and enter the facility. Which of the following is a common way attackers would circumvent this system?   A. Phishing   B. Tailgating   C. Spoofing the smart card   D. RFID spoofing
+
+99.	Which of the following is the term for an attack wherein malware inserts itself as a library, such as a DLL, between an application and the real system library the application is attempting to communicate with?   A. Application spoofing
 B. Jamming   C. Evil twin   D. Shimming
-	100.	You are responsible for incident response at Acme Corporation. You have discovered that someone has been able to circumvent the Windows authentication process for a specific network application. It appears that the attacker took the stored hash of the password and sent it directly to the backend authentication service, bypassing the application. What type of attack is this?   A. Hash spoofing   B. Evil twin   C. Shimming   D. Pass the hash
-	101.	A user in your company reports that she received a call from someone claiming to be from the company technical support team. The caller stated that there was a virus spreading through the company and he needed immediate access to the employee’s computer to stop it from being infected. What social-engineering principles did the caller use to try to trick the employee?   A. Urgency and intimidation   B. Urgency and authority
+
+100.	You are responsible for incident response at Acme Corporation. You have discovered that someone has been able to circumvent the Windows authentication process for a specific network application. It appears that the attacker took the stored hash of the password and sent it directly to the backend authentication service, bypassing the application. What type of attack is this?   A. Hash spoofing   B. Evil twin   C. Shimming   D. Pass the hash
+
+101.	A user in your company reports that she received a call from someone claiming to be from the company technical support team. The caller stated that there was a virus spreading through the company and he needed immediate access to the employee’s computer to stop it from being infected. What social-engineering principles did the caller use to try to trick the employee?   A. Urgency and intimidation   B. Urgency and authority
 C. Authority and trust   D. Intimidation and authority
-	102.	Ahmed has discovered that someone has manipulated tables in one of the company’s switches. The manipulation has changed the tables so that data destined for one specific MAC address will now be routed elsewhere. What type of attack is this?   A. ARP poisoning   B. DNS poisoning   
+
+102.	Ahmed has discovered that someone has manipulated tables in one of the company’s switches. The manipulation has changed the tables so that data destined for one specific MAC address will now be routed elsewhere. What type of attack is this?   A. ARP poisoning   B. DNS poisoning   
 C. Man-in-the-middle   D. Backdoor
-	103.	You are investigating incidents at Acme Corporation and have discovered malware on several machines. It appears that this malware infects system files in the Windows/System32/ directory and also affects the boot sector. What type of malware is this?   A. Multipartite   B. Boot sector 
+
+103.	You are investigating incidents at Acme Corporation and have discovered malware on several machines. It appears that this malware infects system files in the Windows/System32/ directory and also affects the boot sector. What type of malware is this?   A. Multipartite   B. Boot sector 
 C. Macro virus   D. Polymorphic virus
-	104.	What type of attack uses Bluetooth to access the data from a cell phone when in range?   A. Phonejacking   B. Bluejacking   C. Bluesnarfing 
+
+104.	What type of attack uses Bluetooth to access the data from a cell phone when in range?   A. Phonejacking   B. Bluejacking   C. Bluesnarfing 
 D. Evil twin
-	105.	An attacker is using a table of precomputed hashes in order to try to get a Windows password. What type of technique is being used?   A. Dictionary   B. Brute force   C. Pass the hash   D. Rainbow table
-	106.	Carlos works in incident response for a mid-sized bank. Users inform him that internal network connections are fine, but connecting to the outside world is very slow. Carlos reviews logs on the external firewall and discovers tens of thousands of ICMP packets coming from a wide range of different IP addresses. What type of attack is occurring?   A. Smurf   B. DoS   C. DDoS 
+
+105.	An attacker is using a table of precomputed hashes in order to try to get a Windows password. What type of technique is being used?   A. Dictionary   B. Brute force   C. Pass the hash   D. Rainbow table
+
+106.	Carlos works in incident response for a mid-sized bank. Users inform him that internal network connections are fine, but connecting to the outside world is very slow. Carlos reviews logs on the external firewall and discovers tens of thousands of ICMP packets coming from a wide range of different IP addresses. What type of attack is occurring?   A. Smurf   B. DoS   C. DDoS 
 D. SYN flood
-	107.	What type of attack is it when the attacker attempts to get the victim’s communication to abandon a high-quality/secure mode in favor of a lower-quality/less secure mode?   A. Downgrade   B. Brute force   C. Rainbow table D. Bluesnarfing
-	108.	What type of penetration test is being done when the tester is given extensive knowledge of the target network?   A. White-box   B. Full disclosure C. Black-box   D. Red team
-	109.	Your company is instituting a new security awareness program. You are responsible for educating end users on a variety of threats, including social engineering. Which of the following best defines social engineering?  
+
+107.	What type of attack is it when the attacker attempts to get the victim’s communication to abandon a high-quality/secure mode in favor of a lower-quality/less secure mode?   A. Downgrade   B. Brute force   C. Rainbow table D. Bluesnarfing
+
+108.	What type of penetration test is being done when the tester is given extensive knowledge of the target network?   A. White-box   B. Full disclosure C. Black-box   D. Red team
+
+109.	Your company is instituting a new security awareness program. You are responsible for educating end users on a variety of threats, including social engineering. Which of the following best defines social engineering?  
  A. Illegal copying of software   B. Gathering information from discarded manuals and printouts   C. Using people skills to obtain proprietary information   D. Phishing emails
-	110.	Which of the following attacks can be caused by a user being unaware of their physical surroundings?   A. ARP poisoning   B. Phishing   C. Shoulder surfing 
+
+110.	Which of the following attacks can be caused by a user being unaware of their physical surroundings?   A. ARP poisoning   B. Phishing   C. Shoulder surfing 
 D. Smurf attack
-	111.	Francine is a network administrator for Acme Corporation. She has noticed that one of the servers is now unreachable. After carefully reviewing various logs, she discovers that a large number of broadcast packets were sent to the network router, spoofing the server’s IP address. What type of attack is this?  A. SYN flood   B. ICMP flood   C. Buffer overflow   D. Smurf attack
-	112.	An attacker enters code into a text box on a website. That text box is used for product reviews. The attacker wants his code to execute the next time a visitor visits that page. What is this attack called?   A. SQL injection   B. Logic bomb   C. Cross-site scripting   D. Session hijacking 113.
-	113.	A user is redirected to a different website when the user requests the DNS record www.xyz.com. Which of the following is this an example of?  
+
+111.	Francine is a network administrator for Acme Corporation. She has noticed that one of the servers is now unreachable. After carefully reviewing various logs, she discovers that a large number of broadcast packets were sent to the network router, spoofing the server’s IP address. What type of attack is this?  A. SYN flood   B. ICMP flood   C. Buffer overflow   D. Smurf attack
+
+112.	An attacker enters code into a text box on a website. That text box is used for product reviews. The attacker wants his code to execute the next time a visitor visits that page. What is this attack called?   A. SQL injection   B. Logic bomb   C. Cross-site scripting   D. Session hijacking 113.
+
+113.	A user is redirected to a different website when the user requests the DNS record www.xyz.com. Which of the following is this an example of?  
 A. DNS poisoning   B. DoS   C. DNS caching   D. Smurf attack
-	114.	Tom is the network administrator for a small accounting firm. As soon as he comes in to work, users report to him that they cannot connect to the network. After investigating, Tom discovers that none of the workstations can connect to the network and all have an IP address in the form of 169.254.x.x. What has occurred?   A. Smurf attack   B. Man-in-the-middle attack 
+
+114.	Tom is the network administrator for a small accounting firm. As soon as he comes in to work, users report to him that they cannot connect to the network. After investigating, Tom discovers that none of the workstations can connect to the network and all have an IP address in the form of 169.254.x.x. What has occurred?   A. Smurf attack   B. Man-in-the-middle attack 
 C. DDoS   D. DHCP starvation
-	115.	Which of the following would most likely use a group of bots to stop a web server from accepting new requests?   A. DoS   B. DDoS   C. Buffer overflow 
+
+115.	Which of the following would most likely use a group of bots to stop a web server from accepting new requests?   A. DoS   B. DDoS   C. Buffer overflow 
 D. Trojan horse
-	116.	Which of the following would a former employee most likely plant on a server before leaving to cause disruption to the network?   A. Worm   B. Logic bomb C. Trojan   D. Virus
-	117.	A SYN flood is a DoS attack in which an attacker deliberately violates the three-way handshake and opens a large number of half-open TCP connections. The signature of a SYN flood attack is:   A. The source and destination address having the same value   B. The source and destination port numbers having the same value   C. A large number of SYN packets appearing on a network without the corresponding ACK packets   D. A large number of SYN packets appearing on a network with the corresponding
-	118.	What does white-box testing mean?   A. The tester has full knowledge of the environment.   B. The tester has no knowledge of the environment.   C. The tester has permission to access the system.   D. The tester has no permission to access the system.
-	119.	Ahmed has been hired to perform a penetration test of Acme Corporation. He begins by looking at IP address ranges owned by the company and details of domain name registration. He also visits social media and newsgroups to see if they contain any sensitive information or have any technical details online. Within the context of penetration-examining methodology, what phase is Ahmed conducting?   A. Passive information gathering   B. Active information gathering   C. Initial exploitation   D. Vulnerability scanning
-	120.	. Mary works for a large insurance company, on their cybersecurity team. She is investigating a recent incident and discovers that a server was breached using an authorized user’s account. After investigating the incident further, Mary believes that the authorized user logged on, and then someone else took over their session. What best describes this attack?   A. Man-in-the-middle   B. Session hijacking   C. Backdoor   D. Smurf attack
-	121.	Which of the following type of testing utilizes an automated process of proactively identifying vulnerabilities of the computing systems present on a network?   A. Security audit   B. Vulnerability scanning   C. White-box test 
+
+116.	Which of the following would a former employee most likely plant on a server before leaving to cause disruption to the network?   A. Worm   B. Logic bomb C. Trojan   D. Virus
+
+117.	A SYN flood is a DoS attack in which an attacker deliberately violates the three-way handshake and opens a large number of half-open TCP connections. The signature of a SYN flood attack is:   A. The source and destination address having the same value   B. The source and destination port numbers having the same value   C. A large number of SYN packets appearing on a network without the corresponding ACK packets   D. A large number of SYN packets appearing on a network with the corresponding
+
+118.	What does white-box testing mean?   A. The tester has full knowledge of the environment.   B. The tester has no knowledge of the environment.   C. The tester has permission to access the system.   D. The tester has no permission to access the system.
+	
+119.	Ahmed has been hired to perform a penetration test of Acme Corporation. He begins by looking at IP address ranges owned by the company and details of domain name registration. He also visits social media and newsgroups to see if they contain any sensitive information or have any technical details online. Within the context of penetration-examining methodology, what phase is Ahmed conducting?   A. Passive information gathering   B. Active information gathering   C. Initial exploitation   D. Vulnerability scanning
+
+120.	. Mary works for a large insurance company, on their cybersecurity team. She is investigating a recent incident and discovers that a server was breached using an authorized user’s account. After investigating the incident further, Mary believes that the authorized user logged on, and then someone else took over their session. What best describes this attack?   A. Man-in-the-middle   B. Session hijacking   C. Backdoor   D. Smurf attack
+
+121.	Which of the following type of testing utilizes an automated process of proactively identifying vulnerabilities of the computing systems present on a network?   A. Security audit   B. Vulnerability scanning   C. White-box test 
 D. Black-box test
 	
-	122.	What type of attack is an NFC most susceptible to?   A. Eavesdropping 
+
+122.	What type of attack is an NFC most susceptible to?   A. Eavesdropping 
 B. Man-in-the-middle   C. Buffer overflow   D. Smurf attack
-	123.	John has been asked to do a penetration test of a company. He has been given general information but no details about the network. What kind of test is this?   A. Gray-box   B. White-box   C. Partial   D. Masked
-	124.	Under which type of attack does an attacker’s system appear to be the server to the real client and appear to be the client to the real server?  
+
+123.	John has been asked to do a penetration test of a company. He has been given general information but no details about the network. What kind of test is this?   A. Gray-box   B. White-box   C. Partial   D. Masked
+
+124.	Under which type of attack does an attacker’s system appear to be the server to the real client and appear to be the client to the real server?  
 A. Denial of service   B. Replay   C. Eavesdropping   D. Man-in-the-middle
-	125.	You are a security administrator for Acme Corporation. You have discovered malware on some of your company’s machines. This malware seems to intercept calls from the web browser to libraries, and then manipulates the browser calls. What type of attack is this?   A. Man-in-the-browser   
+
+125.	You are a security administrator for Acme Corporation. You have discovered malware on some of your company’s machines. This malware seems to intercept calls from the web browser to libraries, and then manipulates the browser calls. What type of attack is this?   A. Man-in-the-browser   
 B. Man-in-the-middle   C. Buffer overflow   D. Session hijacking
-	126.	Your company has hired a penetration testing firm to test the company network security. The penetration tester has just been able to achieve guest-level privileges on one lowsecurity system. What best describes this phase of the test?   A. Vulnerability scanning   B. Initial exploit   C. Black-box testing 
+
+126.	Your company has hired a penetration testing firm to test the company network security. The penetration tester has just been able to achieve guest-level privileges on one lowsecurity system. What best describes this phase of the test?   A. Vulnerability scanning   B. Initial exploit   C. Black-box testing 
 D. White-box testing
-	127.	What is the primary risk from using outdated software?   A. It may not have all the features you need.   B. It may not have the most modern security features.   C. It may no longer be supported by the vendor.   D. It may be easier to break into than newer software.
-	128.	You are responsible for software testing at Acme Corporation. You want to check all software for bugs that might be used by an attacker to gain entrance into the software or your network. You have discovered a web application that would allow a user to attempt to put a 64-bit value into a 4-byte integer variable. What is this type of flaw?   A. Memory overflow   B. Buffer overflow C. Variable overflow   D. Integer overflow
-	129.	Which type of virus is most difficult to analyze by reverse engineering? 
+
+127.	What is the primary risk from using outdated software?   A. It may not have all the features you need.   B. It may not have the most modern security features.   C. It may no longer be supported by the vendor.   D. It may be easier to break into than newer software.
+
+128.	You are responsible for software testing at Acme Corporation. You want to check all software for bugs that might be used by an attacker to gain entrance into the software or your network. You have discovered a web application that would allow a user to attempt to put a 64-bit value into a 4-byte integer variable. What is this type of flaw?   A. Memory overflow   B. Buffer overflow C. Variable overflow   D. Integer overflow
+
+129.	Which type of virus is most difficult to analyze by reverse engineering? 
 A. Polymorphic   B. Macro   C. Armored   D. Boot sector
 	130.	What type of attack attempts to deauthorize users from a resource, such as a wireless access point (WAP)?   A. Disassociation   B. Session hijacking 
 C. Man-in-the-middle   D. Smurf attack
