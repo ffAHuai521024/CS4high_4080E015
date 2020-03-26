@@ -891,39 +891,60 @@ D. White-box testing
 
 129.	Which type of virus is most difficult to analyze by reverse engineering? 
 A. Polymorphic   B. Macro   C. Armored   D. Boot sector
-	130.	What type of attack attempts to deauthorize users from a resource, such as a wireless access point (WAP)?   A. Disassociation   B. Session hijacking 
+
+130.	What type of attack attempts to deauthorize users from a resource, such as a wireless access point (WAP)?   A. Disassociation   B. Session hijacking 
 C. Man-in-the-middle   D. Smurf attack
-	131.	John is a network administrator for a large retail chain. He has discovered that his DNS server is being attacked. The attack involves false DNS requests from spoofed IP addresses. The requests are far larger than normal. What type of attack is this?   A. Amplification   B. DNS poisoning   C. DNS spoofing 
+	
+131.	John is a network administrator for a large retail chain. He has discovered that his DNS server is being attacked. The attack involves false DNS requests from spoofed IP addresses. The requests are far larger than normal. What type of attack is this?   A. Amplification   B. DNS poisoning   C. DNS spoofing 
 D. Smurf attack
-	132.	Heidi is a security officer for an investment firm. Many of the employees in her firm travel frequently and access the company intranet from remote locations. Heidi is concerned about users logging in from public WiFi, as well as other people seeing information such as login credentials or customer data. Which of the following is Heidi’s most significant concern?   A. Social engineering   B. Shoulder surfing   C. Man-in-the-middle attack   D. CSRF
-	133.	. Cross-site scripting is an attack on the ____  that is based on ____ the trusting the ____ .
+
+132.	Heidi is a security officer for an investment firm. Many of the employees in her firm travel frequently and access the company intranet from remote locations. Heidi is concerned about users logging in from public WiFi, as well as other people seeing information such as login credentials or customer data. Which of the following is Heidi’s most significant concern?   A. Social engineering   B. Shoulder surfing   C. Man-in-the-middle attack   D. CSRF
+
+133.	. Cross-site scripting is an attack on the ____  that is based on ____ the trusting the ____ .
 A. user, user, website   B. user, website, user   C. website, website, user 
 D. user, website, website
-	134.	You are a security officer for a large investment firm. Some of your stock traders handle very valuable accounts with large amounts of money. You are concerned about someone targeting these specific traders to get their login credentials and access account information. Which of the following best describes the attack you are concerned about?   A. Spear phishing   B. Man-in-the-middle   C. Target phishing   D. Vishing
-	135.	. You lead an incident response team for a large retail chain store. You have discovered what you believe is spyware on the point-of-sale systems. But the malware in question is encrypted, preventing you from analyzing it. What best describes this?   A. An armored virus   B. Ransomware   
+
+134.	You are a security officer for a large investment firm. Some of your stock traders handle very valuable accounts with large amounts of money. You are concerned about someone targeting these specific traders to get their login credentials and access account information. Which of the following best describes the attack you are concerned about?   A. Spear phishing   B. Man-in-the-middle   C. Target phishing   D. Vishing
+
+135.	. You lead an incident response team for a large retail chain store. You have discovered what you believe is spyware on the point-of-sale systems. But the malware in question is encrypted, preventing you from analyzing it. What best describes this?   A. An armored virus   B. Ransomware   
 C. Polymorphic virus   D. Trojan horse
-	136.	Jared has discovered malware on the workstations of several users. This particular malware provides administrative privileges for the workstation to an external hacker. What best describes this malware?   A. Trojan horse 
+
+136.	Jared has discovered malware on the workstations of several users. This particular malware provides administrative privileges for the workstation to an external hacker. What best describes this malware?   A. Trojan horse 
 B. Logic bomb   C. Multipartite virus   D. Rootki
-	137.	Users in your company report someone has been calling their extension and claiming to be doing a survey for a large vendor. Based on the questions asked in the survey, you suspect that this is a scam to elicit information from your company’s employees. What best describes this?   A. Spear phishing 
+
+137.	Users in your company report someone has been calling their extension and claiming to be doing a survey for a large vendor. Based on the questions asked in the survey, you suspect that this is a scam to elicit information from your company’s employees. What best describes this?   A. Spear phishing 
 B. Vishing   C. War dialing   D. Robocalling
-	138.	Cross-site request forgery is an attack on the ____ that is based on the ____ trusting the ____ . A. website, website, user   B. user, user website 
+
+138.	Cross-site request forgery is an attack on the ____ that is based on the ____ trusting the ____ . A. website, website, user   B. user, user website 
 C. website, user, website   D. user, website, user
-	139.	What type of virus can infect both a file in the operating system and the boot sector?   A. Multipartite   B. Rootkit   C. Ransomware   D. Worm
-	140.	John is analyzing a recent malware infection on his company network. He discovers malware that can spread rapidly and does not require any interaction from the user. What best describes this malware?   A. Worm 
+
+139.	What type of virus can infect both a file in the operating system and the boot sector?   A. Multipartite   B. Rootkit   C. Ransomware   D. Worm
+
+140.	John is analyzing a recent malware infection on his company network. He discovers malware that can spread rapidly and does not require any interaction from the user. What best describes this malware?   A. Worm 
 B. Virus   C. Logic bomb   D. Trojan horse
-	141.	Your company has issued some new security directives. One of these new directives is that all documents must be shredded before being thrown out. What type of attack is this trying to prevent?   A. Phishing   B. Dumpster diving  C. Shoulder surfing   D. Man-in-the-middle
-	142.	What type of attack embeds malicious code into a document or spreadsheet? A. Logic bomb   B. Rootkit   C. Trojan horse   D. Macro virus
-	143.	You are a network security analyst for an online retail website. Users report that they have visited your site and had their credit cards stolen. You cannot find any evidence of any breach of your website. You begin to suspect that these users were lured to a fake site. You have found a website that is spelled exactly like your company site, with one letter different. What is this attack called?   A. URL hijacking   B. DNS poisoning  C. Cross-site scripting 
+
+141.	Your company has issued some new security directives. One of these new directives is that all documents must be shredded before being thrown out. What type of attack is this trying to prevent?   A. Phishing   B. Dumpster diving  C. Shoulder surfing   D. Man-in-the-middle
+
+142.	What type of attack embeds malicious code into a document or spreadsheet? A. Logic bomb   B. Rootkit   C. Trojan horse   D. Macro virus
+
+143.	You are a network security analyst for an online retail website. Users report that they have visited your site and had their credit cards stolen. You cannot find any evidence of any breach of your website. You begin to suspect that these users were lured to a fake site. You have found a website that is spelled exactly like your company site, with one letter different. What is this attack called?   A. URL hijacking   B. DNS poisoning  C. Cross-site scripting 
 D. Man-in-the-middle
-	144.	You have discovered that someone has been trying to log on to your web server. The person has tried a wide range of likely passwords. What type of attack is this?   A. Rainbow table   B. Birthday attack   C. Dictionary attack 
+
+144.	You have discovered that someone has been trying to log on to your web server. The person has tried a wide range of likely passwords. What type of attack is this?   A. Rainbow table   B. Birthday attack   C. Dictionary attack 
 D. Spoofing
-	145.	You have just started a new job as a security administrator for Acme Corporation. You discover they have weak authentication protocols. You are concerned that an attacker might simply capture and re-send a user’s login credentials. What type of attack is this?   A. Replay attack   B. IP spoofing 
+
+145.	You have just started a new job as a security administrator for Acme Corporation. You discover they have weak authentication protocols. You are concerned that an attacker might simply capture and re-send a user’s login credentials. What type of attack is this?   A. Replay attack   B. IP spoofing 
 C. Login spoofing   D. Session hijacking
-	146.	What is the primary difference between active and passive reconnaissance? A. Active will be done manually, passive with tools.   B. Active is done with black-box tests and passive with white-box tests.   C. Active is usually done by attackers and passive by testers.   D. Active will actually connect to the network and could be detected; passive won’t.
-	147.	What is the primary difference between a vulnerability scan and a penetration test?   A. Vulnerability scans are done by employees and penetration tests by outside teams.   B. Vulnerability scans only use tools; penetration tests are manual.   C. Vulnerability scans just identify issues; penetration tests attempt to exploit them.   D. Vulnerability scans are usually white-box tests; penetration tests are black-box tests.
-	148.	When an attacker breaches one system and uses that as a base to attack a related system, what is this called?   A. Man-in-the-middle   B. Pivot 
+
+146.	What is the primary difference between active and passive reconnaissance? A. Active will be done manually, passive with tools.   B. Active is done with black-box tests and passive with white-box tests.   C. Active is usually done by attackers and passive by testers.   D. Active will actually connect to the network and could be detected; passive won’t.
+
+147.	What is the primary difference between a vulnerability scan and a penetration test?   A. Vulnerability scans are done by employees and penetration tests by outside teams.   B. Vulnerability scans only use tools; penetration tests are manual.   C. Vulnerability scans just identify issues; penetration tests attempt to exploit them.   D. Vulnerability scans are usually white-box tests; penetration tests are black-box tests.
+
+148.	When an attacker breaches one system and uses that as a base to attack a related system, what is this called?   A. Man-in-the-middle   B. Pivot 
 C. Shimming   D. Vishing
-	149.	Terrance is conducting a penetration test for a client. The client is a major e-commerce company and is primarily concerned about security for their web server. He has just finished running Nmap and OWASP Zap on the target web server. What is this activity called?   A. Passive scanning   B. Black-box testing C. Active scanning   D. White-box testing
-	150	You have just taken over as the CISO for a large bank. You are concerned about making sure all systems are secure. One major concern you have is security misconfiguration. Which of the following is not a common security misconfiguration?   A. Unpatched operating system   B. Default accounts with passwords   C. Unneeded services running   D. No firewall running
+
+149.	Terrance is conducting a penetration test for a client. The client is a major e-commerce company and is primarily concerned about security for their web server. He has just finished running Nmap and OWASP Zap on the target web server. What is this activity called?   A. Passive scanning   B. Black-box testing C. Active scanning   D. White-box testing
+
+150	You have just taken over as the CISO for a large bank. You are concerned about making sure all systems are secure. One major concern you have is security misconfiguration. Which of the following is not a common security misconfiguration?   A. Unpatched operating system   B. Default accounts with passwords   C. Unneeded services running   D. No firewall running
 
 ```
