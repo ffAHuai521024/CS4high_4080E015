@@ -801,21 +801,62 @@ B. Clickjacking
 C. Cross-site scripting   
 D. Bluejacking
 
-94.	Tyrell is responsible for selecting cryptographic products for his company. The company wants to encrypt the drives of all laptops. The product they have selected uses 128-bit AES encryption for full disk encryption, and users select a password to decrypt the drive. What, if any, would be the major weakness in this system?   A. None; this is a good system.   B. The 128-bit AES key is too short.   C. The passwords users select are the weak link.   D. The AES algorithm is the problem; they should use DES.
+94.Tyrell is responsible for selecting cryptographic products for his company.
+The company wants to encrypt the drives of all laptops. 
+The product they have selected uses 128-bit AES encryption for full disk encryption, 
+and users select a password to decrypt the drive. 
+What, if any, would be the major weakness in this system?   
+A. None; this is a good system.   
+B. The 128-bit AES key is too short.   
+C. The passwords users select are the weak link.   
+D. The AES algorithm is the problem; they should use DES.
 
-95.	Valerie is responsible for security testing applications in her company. She has discovered that a web application, under certain conditions, can generate a memory leak. What, type of attack would this leave the application vulnerable to?   A. DoS   B. Backdoor   C. SQL injection   D. Buffer overflow
+95.Valerie is responsible for security testing applications in her company. 
+She has discovered that a web application, under certain conditions, can generate a memory leak. 
+What, type of attack would this leave the application vulnerable to?   
+A. DoS   
+B. Backdoor   
+C. SQL injection   
+D. Buffer overflow
 
-96.	When a multithreaded application does not properly handle various threads accessing a common value, what flaw is this?   A. Memory leak   B. Buffer overflow   C. Integer overflow   D. Race condition
+96.When a multithreaded application does not properly handle various threads accessing a common value, what flaw is this?   
+A. Memory leak   
+B. Buffer overflow   
+C. Integer overflow   
+D. Race condition
 
-97.	 Acme Company is using smart cards that use near-field communication (NFC) rather than needing to be swiped. This is meant to make physical access to secure areas more secure. What vulnerability might this also create? 
-A. Tailgating   B. Eavesdropping   C. IP spoofing   D. Race conditions
+97.Acme Company is using smart cards that use near-field communication (NFC) rather than needing to be swiped. 
+This is meant to make physical access to secure areas more secure. 
+What vulnerability might this also create? 
+A. Tailgating   
+B. Eavesdropping   
+C. IP spoofing   
+D. Race conditions
 
-98.	John is responsible for physical security at a large manufacturing plant. Employees all use a smart card in order to open the front door and enter the facility. Which of the following is a common way attackers would circumvent this system?   A. Phishing   B. Tailgating   C. Spoofing the smart card   D. RFID spoofing
+98.John is responsible for physical security at a large manufacturing plant. 
+Employees all use a smart card in order to open the front door and enter the facility. 
+Which of the following is a common way attackers would circumvent this system?  
+A. Phishing   
+B. Tailgating   
+C. Spoofing the smart card   
+D. RFID spoofing
 
-99.	Which of the following is the term for an attack wherein malware inserts itself as a library, such as a DLL, between an application and the real system library the application is attempting to communicate with?   A. Application spoofing
-B. Jamming   C. Evil twin   D. Shimming
+99.Which of the following is the term for an attack wherein malware inserts itself as a library, such as a DLL, 
+between an application and the real system library the application is attempting to communicate with?   
+A. Application spoofing
+B. Jamming   
+C. Evil twin   
+D. Shimming
 
-100.	You are responsible for incident response at Acme Corporation. You have discovered that someone has been able to circumvent the Windows authentication process for a specific network application. It appears that the attacker took the stored hash of the password and sent it directly to the backend authentication service, bypassing the application. What type of attack is this?   A. Hash spoofing   B. Evil twin   C. Shimming   D. Pass the hash
+100.You are responsible for incident response at Acme Corporation. 
+You have discovered that someone has been able to circumvent the Windows authentication process for a specific network application. 
+It appears that the attacker took the stored hash of the password and sent it directly to the backend authentication service, 
+bypassing the application. 
+What type of attack is this?   
+A. Hash spoofing   
+B. Evil twin   
+C. Shimming   
+D. Pass the hash
 
 101.	A user in your company reports that she received a call from someone claiming to be from the company technical support team. The caller stated that there was a virus spreading through the company and he needed immediate access to the employee’s computer to stop it from being infected. What social-engineering principles did the caller use to try to trick the employee?   A. Urgency and intimidation   B. Urgency and authority
 C. Authority and trust   D. Intimidation and authority
