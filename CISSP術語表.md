@@ -63,4 +63,9 @@ VLAN 標籤由交換機和橋接器用於管理 VLAN 內和 VLAN 之間的流量
 
 A
 =
-ab
+
+abnormal activity: 異常活動
+-
+指系統中非正常發生的任何系統活動，也被稱為可疑活動。 <br/>
+
+abstraction: 抽取
