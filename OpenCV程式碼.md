@@ -5,6 +5,7 @@ ch3-04
 2draw.py
 -
 ```
+
 import cv2 
 import numpy as np
 
@@ -30,11 +31,13 @@ cv2.putText(gc, 'OpenCV', (10,200), font, 4, (0,0,0), 2, cv2.LINE_AA)
 cv2.imshow('draw', gc) 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
 ```
 
 font.py
 -
 ```
+
 import numpy as np
 import cv2
 
@@ -62,12 +65,17 @@ for f in font:
 cv2.imshow("draw", gc)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
 ```
 ***
+
+ch3-06
+=
 
 1capture.py
 -
 ```
+
 import cv2
 ESC = 27
 # 畫面數量計數
@@ -111,12 +119,14 @@ while n > 0:
     if cv2.waitKey(1) == 27:
         cv2.destroyAllWindows()
         break
+
 ```
 ***
 
 2train.py
 -
 ```
+
 import cv2
 import numpy as np
 
@@ -134,11 +144,13 @@ model = cv2.face.LBPHFaceRecognizer_create()
 model.train(np.asarray(images), np.asarray(labels))
 model.save('faces.data')
 print('training done')
+
 ```
 ***
 3recognition.py
 -
 ```
+
 import cv2
 
 model = cv2.face.LBPHFaceRecognizer_create()
@@ -180,5 +192,41 @@ while True:
     if cv2.waitKey(1) == 27:
         cv2.destroyAllWindows()
         break
+
 ```
 ***
+
+ch3-08
+=
+
+track.py
+-
+```
+
+import cv2
+
+cap = cv2.VideoCapture('vtest.avi')
+tracker = cv2.TrackerCSRT_create()
+roi = None
+while True:
+    ret, frame = cap.read()
+ 
+    if roi is None:
+        roi = cv2.selectROI('frame', frame)
+        if roi != (0, 0, 0, 0):
+            tracker.init(frame, roi)
+
+#### 在while內
+    success, rect = tracker.update(frame)
+    if success: 
+        (x, y, w, h) = [int(i) for i in rect]
+        cv2.rectangle(frame, (x,y), (x+w, y+h), (0, 255, 0), 2)
+
+#### 在while內
+    cv2.imshow('frame', frame)
+    if cv2.waitKey(66) == 27:
+        cv2.destroyAllWindows()
+        break
+
+```
+
