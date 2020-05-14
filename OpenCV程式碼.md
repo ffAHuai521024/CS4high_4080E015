@@ -65,4 +65,120 @@ cv2.destroyAllWindows()
 ```
 ***
 
+1capture.py
+-
+```
+import cv2
+ESC = 27
+# 畫面數量計數
+n = 1
+# 存檔檔名用
+index = 0
+# 人臉取樣總數
+total = 100
 
+def saveImage(face_image, index):
+    filename = 'images/h0/{:02d}.pgm'.format(index)
+    cv2.imwrite(filename, face_image)
+    print(filename)
+
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+cap = cv2.VideoCapture(0)
+cv2.namedWindow('video', cv2.WINDOW_NORMAL)
+
+while n > 0:
+    ret, frame = cap.read()
+    # frame = cv2.resize(frame, (600, 336))
+    frame = cv2.flip(frame, 1)
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+#### 在while內
+    faces = face_cascade.detectMultiScale(gray, 1.1, 3)
+    for (x, y, w, h) in faces:
+        frame = cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 3)
+        if n % 5 == 0:
+            face_image = cv2.resize(gray[y: y + h, x: x + w], (400, 400))
+            saveImage(face_image, index)
+            index += 1
+            if index >= total:
+                print('get training data done')
+                n = -1
+                break
+        n += 1
+
+#### 在while內
+    cv2.imshow('video', frame)
+    if cv2.waitKey(1) == 27:
+        cv2.destroyAllWindows()
+        break
+```
+***
+
+2train.py
+-
+```
+import cv2
+import numpy as np
+
+images = []
+labels = []
+for index in range(100):
+    filename = 'images/h0/{:02d}.pgm'.format(index)
+    print('read ' + filename)
+    img = cv2.imread(filename, cv2.COLOR_BGR2GRAY)
+    images.append(img)
+    labels.append(0)    # 第一張人臉的標籤為0
+
+print('training...')
+model = cv2.face.LBPHFaceRecognizer_create()
+model.train(np.asarray(images), np.asarray(labels))
+model.save('faces.data')
+print('training done')
+```
+***
+3recognition.py
+-
+```
+import cv2
+
+model = cv2.face.LBPHFaceRecognizer_create()
+model.read('faces.data')
+print('load training data done')
+
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+cap = cv2.VideoCapture(0)
+cv2.namedWindow('video', cv2.WINDOW_NORMAL)
+# 可識別化名稱
+names = ['ckk']
+
+while True:
+    ret, frame = cap.read()
+    frame = cv2.resize(frame, (600, 336))
+    frame = cv2.flip(frame, 1)
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+#### 在while內
+    faces = face_cascade.detectMultiScale(gray, 1.1, 3)
+    for (x, y, w, h) in faces:
+        frame = cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 3)
+        face_image = cv2.resize(gray[y: y + h, x: x + w], (400, 400))
+        try:
+            val = model.predict(face_image)
+            print('label:{}, confidence:{}'.format(val[0], val[1]))
+            if val[1] < 50:
+                cv2.putText(
+                    frame, names[val[0]], 
+                    (x, y - 10), 
+                    cv2.FONT_HERSHEY_SIMPLEX, 1, 
+                    (255,255,0), 3, cv2.LINE_AA
+                )
+        except:
+            continue
+
+#### 在while內
+    cv2.imshow('video', frame)
+    if cv2.waitKey(1) == 27:
+        cv2.destroyAllWindows()
+        break
+```
+***
