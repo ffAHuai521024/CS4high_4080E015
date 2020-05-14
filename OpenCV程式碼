@@ -1,9 +1,10 @@
 ch3-04
 =
 
-```
+
 2draw.py
 -
+```
 import cv2 
 import numpy as np
 
@@ -29,9 +30,11 @@ cv2.putText(gc, 'OpenCV', (10,200), font, 4, (0,0,0), 2, cv2.LINE_AA)
 cv2.imshow('draw', gc) 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+```
 
 font.py
 -
+```
 import numpy as np
 import cv2
 
@@ -59,7 +62,6 @@ for f in font:
 cv2.imshow("draw", gc)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
 ```
 
 
