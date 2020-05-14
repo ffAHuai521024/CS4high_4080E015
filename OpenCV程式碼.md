@@ -3,7 +3,7 @@ ch3-04
 
 
 2draw.py
-
+-
 ```
 import cv2 
 import numpy as np
@@ -33,6 +33,7 @@ cv2.destroyAllWindows()
 ```
 
 font.py
+-
 ```
 import numpy as np
 import cv2
